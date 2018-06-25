@@ -42,17 +42,17 @@ $torrents = $axon->search('Iron Man 3');
 Torrents are automatically filtered (by hash) so duplicate search results are
 very rare.
 
-Check the [`lib/Axon/Search/Provider`](https://github.com/kleiram/axon/tree/master/lib/Axon/Search/Provider)
+Check the [`lib/Axon/Search/Provider`](lib/Axon/Search/Provider)
 directory for more providers.
 
 ### Supported providers
 
 Currently, the following tracker sites are supported:
 
- - [YIFY Torrents](https://github.com/kleiram/axon/blob/master/lib/Axon/Search/Provider/YifyProvider.php)
- - [Kickass Torrents](https://github.com/kleiram/axon/blob/master/lib/Axon/Search/Provider/KickassProvider.php)
- - [The Pirate Bay](https://github.com/kleiram/axon/blob/master/lib/Axon/Search/Provider/PirateBayProvider.php)
- - [EZTV](https://github.com/kleiram/axon/blob/master/lib/Axon/Search/Provider/EztvProvider.php)
+ - [YIFY Torrents](lib/Axon/Search/Provider/YifyProvider.php)
+ - [Kickass Torrents](lib/Axon/Search/Provider/KickassProvider.php)
+ - [The Pirate Bay](lib/Axon/Search/Provider/PirateBayProvider.php)
+ - [EZTV](lib/Axon/Search/Provider/EztvProvider.php)
  - And working on more!
 
 ## Changelog
